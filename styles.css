@@ -71,7 +71,7 @@ p {
 
 .btn {
     width: 100%;
-    padding: .8em;
+    padding: 1em;
     margin-top: 1em;
     font-family: inherit;
     border-radius: 5px;
@@ -130,7 +130,7 @@ form {
 
 input {
     width: 100%;   
-    padding: .5em;
+    padding: .8em;
     border: 2px solid lightgray;
     border-radius: 5px;
     margin-bottom: .8em;
@@ -189,7 +189,6 @@ input::placeholder {
         margin: 0 auto;
         justify-content: center;
     }
-
 } 
 
 @media (max-width: 425px) {
