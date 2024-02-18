@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Source Sans 3', sans-serif;
     color: #404040;
+    min-height: 100vh;
 }
 
 /* Base layer */
@@ -147,6 +148,7 @@ input::placeholder {
 
 .fine-print {
     color: #989898;
+    margin-bottom: 1em;
 }
 
 .btn-primary {
@@ -165,7 +167,6 @@ input::placeholder {
 @media (min-width: 768px) {
     body {
         display: flex;
-        height: 100vh;
     }
 
     h1 {
