@@ -136,7 +136,6 @@ input {
     margin-bottom: .8em;
 }
 
-
 input:focus {
     outline: none;
     border-color: royalblue;
@@ -165,6 +164,7 @@ input::placeholder {
 }
 
 /* Media queries */
+
 @media (min-width: 768px) {
     body {
         display: flex;
@@ -192,10 +192,14 @@ input::placeholder {
 
 } 
 
-@media (max-width: 360px) {
+@media (max-width: 425px) {
     .apex-text,
     .slogan-text {
         font-size: .8rem;
+    }
+
+    .slogan-text {
+        margin-bottom: .8em;
     }
 
     h1 {
